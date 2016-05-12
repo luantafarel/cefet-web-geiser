@@ -6,8 +6,11 @@ var express = require('express'),
 // dica: 3-4 linhas de código (você deve usar o módulo de filesystem (fs))
 var db = {
 };
+ app.use(express.static(__dirname + '/client'))
+ app.set('view engine','hbs')
+ app.listen(3000,function( /index.exempo.html){
 
-
+ });
 // configurar qual templating engine usar. Sugestão: hbs (handlebars)
 //app.set('view engine', '???');
 

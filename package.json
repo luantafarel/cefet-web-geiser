@@ -1,0 +1,27 @@
+{
+  "name": "cefet-web-geiser",
+  "version": "1.0.0",
+  "description": "visualizador de jogadores",
+  "main": "server/app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luantafarel/cefet-web-geiser.git"
+  },
+  "author": "Luan tafarel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luantafarel/cefet-web-geiser/issues"
+  },
+  "homepage": "https://github.com/luantafarel/cefet-web-geiser#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "hbs": "^4.0.0",
+    "underscore": "^1.8.3"
+  }
+}
